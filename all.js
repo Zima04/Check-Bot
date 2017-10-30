@@ -4,7 +4,7 @@ window.onscroll = function () {
         document.getElementById('header').style.width = '100%';
         document.getElementById('header').style.backgroundColor = '#fff';
         document.getElementsByTagName('img')[0].style.height = '60px';
-        document.getElementsByTagName('img')[0].style.width = '180px';
+        document.getElementsByTagName('img')[0].style.width = '245px';
         var links = document.getElementsByClassName('header-links');
         for(var i = 0 ; i < links.length;i++){
                 links[i].style.height = '40px';
@@ -15,6 +15,8 @@ window.onscroll = function () {
             links[0].style.height = '40px';
             links[0].style.lineHeight = '40px';
             links[0].style.color = 'black';
+        var links = document.getElementsByClassName('sign-in-label');
+        links[0].style.color = 'black';
     }
     else{
         document.getElementById('header').style.position = 'absolute';
@@ -22,7 +24,7 @@ window.onscroll = function () {
         document.getElementById('header').style.backgroundColor ='';
         document.getElementById('header').style.opacity = '1';
         document.getElementsByTagName('img')[0].style.height = '70px';
-        document.getElementsByTagName('img')[0].style.width = '198px';
+        document.getElementsByTagName('img')[0].style.width = '285px';
         var links = document.getElementsByClassName('header-links');
         for(var i = 0 ; i < links.length;i++){
             links[i].style.height = '50px';
@@ -33,6 +35,9 @@ window.onscroll = function () {
         links[0].style.height = '50px';
         links[0].style.lineHeight = '50px';
         links[0].style.color = '#fff';
+        var links = document.getElementsByClassName('sign-in-label');
+        links[0].style.color = '#fff';
+
     }
 
 };
